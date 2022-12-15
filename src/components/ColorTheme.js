@@ -10,7 +10,6 @@ import React from 'react'
     </a>
     <ul style={{backgroundColor:(props.mode.colorValue === 'dark')?'black':(props.mode.colorValue === 'light')?"white":`${props.mode.colorValue}`}} className="dropdown-menu" aria-labelledby="navbarDropdown">
           {
-           
           colorThemeArr.map((color,key) => ( 
             <li key={key}>
              <div className="form-check form-switch mx-3">
